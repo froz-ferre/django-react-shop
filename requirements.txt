@@ -1,0 +1,6 @@
+# python 3.5 Dev by Ferre 2018
+# online shop example
+Django==2.0.2
+Pillow==5.0.0
+pkg-resources==0.0.0
+pytz==2017.3

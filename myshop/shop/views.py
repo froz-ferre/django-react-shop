@@ -19,6 +19,7 @@ def home(request):
 
 
 # product detail page
+# localhost/product/product_name
 def product_detail(request, slug):
     categories = Category.objects.all()
     product = Product.objects.get(slug = slug)
@@ -30,6 +31,7 @@ def product_detail(request, slug):
     
 
 # page with products within category
+# localhost/category/category_name
 def category_list(request, slug):
     category = slug
     category_id = Category.objects.get(slug=slug)
